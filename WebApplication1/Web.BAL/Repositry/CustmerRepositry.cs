@@ -29,6 +29,7 @@ namespace Web.BAL.Repositry
 
         public List<Custmer> GetCustmers()
         {
+            var data="hello";
             List<Custmer> cust = _3TierArchitecure_DAL.GetAllCustmers();
             return cust;
         }
